@@ -139,7 +139,7 @@ class _HomePageState extends State<HomePage> {
                         });
                       },
                       child: Text(
-                        'Know More',
+                        isClick1?'Know Less':'Know More',
                         style: TextStyle(fontSize: height * 0.02),
                       )),
                   const Spacer(),
@@ -165,7 +165,7 @@ class _HomePageState extends State<HomePage> {
                         });
                       },
                       child: Text(
-                        'Know More',
+                        isClick2?'Know Less':'Know More',
                         style: TextStyle(fontSize: height * 0.02),
                       )),
                   const Spacer(),
@@ -191,7 +191,7 @@ class _HomePageState extends State<HomePage> {
                         });
                       },
                       child: Text(
-                        'Know More',
+                        isClick3?'Know Less':'Know More',
                         style: TextStyle(fontSize: height * 0.02),
                       )),
                   const Spacer(),
